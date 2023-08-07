@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Htmlテーブルを動的に作成</h1>
+        <ul>
+            {% for name,date in data%}
+                <li><a>{{ name }}:{{ date }}</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
